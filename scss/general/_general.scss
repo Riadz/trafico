@@ -37,17 +37,17 @@ body {
 /** firefox  */
 html {
   scrollbar-width: thin;
-  // scrollbar-color: var(--scroll-thumb) var(--scroll-track);
+  scrollbar-color: $c-1 $c-2;
 }
 /** chrome  */
 body::-webkit-scrollbar {
   width: 0.5rem;
 }
 body::-webkit-scrollbar-track {
-  // background: var(--scroll-track);
+  background: $c-2;
 }
 body::-webkit-scrollbar-thumb {
-  // background: var(--scroll-thumb);
+  background: $c-1;
 }
 // sections
 section {
@@ -55,7 +55,7 @@ section {
   // overflow: hidden;
 }
 main {
-  overflow: hidden;
+  // overflow: hidden;
 }
 // anchor tag
 a {
