@@ -1,0 +1,47 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 52px 0;
+
+  &-copyright {
+    color: $c-3;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  &-social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    &:not(:first-child) {
+      margin-left: 31px;
+    }
+
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    background-color: $c-1;
+    color: #fff;
+
+    &.fb:hover {
+      background-color: #3b5998;
+    }
+    &.tw:hover {
+      background-color: #00acee;
+    }
+    &.in:hover {
+      background: linear-gradient(
+        45deg,
+        #f09433 0%,
+        #e6683c 25%,
+        #dc2743 50%,
+        #cc2366 75%,
+        #bc1888 100%
+      );
+    }
+    transition: background-color 0.3s ease;
+  }
+}
