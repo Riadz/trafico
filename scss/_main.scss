@@ -35,11 +35,6 @@
   &-man-ilust {
     position: absolute;
     top: 254px;
-    left: 0;
-  }
-  &-man-ilust {
-    position: absolute;
-    top: 254px;
     left: -285px;
   }
 }
@@ -406,7 +401,103 @@
   }
 }
 
-//
+// mobile queries
+@media (max-width: 575.98px) {
+  .intro-bg-ilust {
+    height: 710px;
+  }
+  .intro-display {
+    text-align: center;
+  }
+  a.intro-cta {
+    display: flex;
+    margin: 30px auto 0;
+    width: max-content;
+  }
+  .intro-truck-ilust {
+    display: block;
+    width: 85%;
+    margin: 50px auto 0;
+  }
+
+  .section-header {
+    text-align: center;
+  }
+  .section-text {
+    text-align: center;
+    margin-right: 0;
+  }
+  .section-highlight {
+    font-size: 20px;
+    padding: 25px;
+  }
+
+  .faq-text {
+    font-size: 35px;
+    text-align: center;
+  }
+  .faq-accordion button {
+    height: unset;
+  }
+
+  .testimonial .owl-nav {
+    right: unset;
+    top: -21px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .testimonial .owl-stage-outer {
+    width: 100%;
+    overflow: unset;
+  }
+  .testimonial .carousel-card {
+    width: 80vw;
+    padding: 35px;
+  }
+
+  .contact-text {
+    padding: 20px;
+  }
+  .contact-form {
+    padding: 35px;
+  }
+  .contact .footer-nav {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 991.98px) {
+  .intro-man-ilust {
+    display: none;
+  }
+  .intro-display {
+    font-size: clamp(40px, 10vw, 100px);
+  }
+
+  .about-ilust,
+  .howto-ilust,
+  .faq-ilust {
+    width: 95%;
+    margin: 50px 0 0;
+  }
+
+  .contact-bg {
+    height: 100%;
+  }
+  .contact-ilust {
+    top: -50px;
+  }
+  .contact-text-container {
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .contact-submit {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+// 1080p fixs
 @media (min-width: 1601px) {
   .intro-bg-ilust {
     width: 75%;

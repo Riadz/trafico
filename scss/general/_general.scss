@@ -5,8 +5,6 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  // font-family: 'Muli', sans-serif;
-  overflow-x: hidden;
   background: $c-2;
 }
 :root {
@@ -55,17 +53,15 @@ body::-webkit-scrollbar-thumb {
 // sections
 section {
   position: relative;
-  // overflow: hidden;
 }
 main {
-  // overflow: hidden;
+  position: relative;
+  overflow-x: hidden;
 }
 // anchor tag
 a {
-  // color: var(--text-1);
   cursor: pointer;
   &:hover {
-    // color: var(--text-1-hover);
     text-decoration: none;
   }
   transition: color 0.3s ease;
