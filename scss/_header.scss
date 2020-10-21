@@ -26,16 +26,52 @@
       &:hover {
         color: $c-1;
       }
-
-      &.cta {
-        background-color: $c-1;
-        border-radius: 5px;
-        border: 1px solid $c-1;
-        &:hover {
-          color: $c-1;
-          background-color: $c-2;
+      @media (min-width: 991.98px) {
+        &.cta {
+          background-color: $c-1;
+          border-radius: 5px;
+          border: 1px solid $c-1;
+          &:hover {
+            color: $c-1;
+            background-color: $c-2;
+          }
+          transition: background-color 0.3s ease, color 0.3s ease;
         }
-        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+    }
+  }
+
+  .navbar-toggler {
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    outline: 0;
+  }
+  .navbar-toggler.collapsed i::before {
+    content: "\f0c9";
+  }
+  .navbar-toggler i::before {
+    content: "\f00d";
+  }
+
+  @media (max-width: 991.98px) {
+    .navbar-collapse {
+      position: absolute;
+      top: 90%;
+      right: 0;
+      z-index: 10;
+
+      padding: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      background-color: rgba(0, 0, 0, 0.08);
+      box-shadow: rgba(255, 255, 255, 0.4) 0px 0px 10px;
+    }
+    .navbar-nav li {
+      &:not(:last-child) {
+        margin-right: 0;
+      }
+      a {
+        padding: 0;
       }
     }
   }

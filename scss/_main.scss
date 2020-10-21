@@ -519,6 +519,10 @@
     width: 100%;
     justify-content: space-between;
   }
+
+  .footer-nav .navbar-collapse {
+    display: none !important;
+  }
 }
 
 // 1080p fixs
