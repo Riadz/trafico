@@ -89,6 +89,9 @@
 }
 .howto {
   padding-top: 260px;
+  @media (max-width: 575.98px) {
+    padding-top: 98px;
+  }
 
   &-ilust {
     margin-left: -149px;
@@ -99,6 +102,10 @@
   margin-top: 120px;
   padding-top: 160px;
   padding-bottom: 100px;
+  @media (max-width: 575.98px) {
+    margin-top: 10px;
+    padding-top: 64px;
+  }
 
   &-text-container {
     display: flex;
@@ -213,6 +220,10 @@
 }
 .testimonial {
   padding-top: 177px;
+  @media (max-width: 575.98px) {
+    padding-top: 81px;
+  }
+
   .carousel {
     margin-top: 90px;
   }
@@ -293,6 +304,9 @@
   margin-top: 160px;
   padding-top: 60px;
   padding-bottom: 120px;
+  @media (max-width: 575.98px) {
+    padding-bottom: 75px;
+  }
 
   &-text-container {
     display: flex;
@@ -418,8 +432,8 @@
   }
   .intro-truck-ilust {
     display: block;
-    width: 85%;
-    margin: 50px auto 0;
+    width: 86%;
+    margin: 55px auto 0;
   }
 
   .section-header {
@@ -432,14 +446,18 @@
   .section-highlight {
     font-size: 20px;
     padding: 25px;
+    margin-top: 20px;
   }
 
   .faq-text {
-    font-size: 35px;
+    font-size: 26px;
     text-align: center;
   }
   .faq-accordion button {
     height: unset;
+  }
+  .faq-bg {
+    height: 100%;
   }
 
   .testimonial .owl-nav {
@@ -466,6 +484,7 @@
   .contact .footer-nav {
     display: flex;
     justify-content: center;
+    margin-top: 75px;
   }
 }
 @media (max-width: 991.98px) {
@@ -477,10 +496,13 @@
   }
 
   .about-ilust,
-  .howto-ilust,
   .faq-ilust {
     width: 95%;
     margin: 50px 0 0;
+  }
+  .howto-ilust {
+    width: 110%;
+    margin: 20px 0 0;
   }
 
   .contact-bg {

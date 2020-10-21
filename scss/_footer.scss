@@ -18,6 +18,9 @@
     justify-content: center;
     &:not(:first-child) {
       margin-left: 31px;
+      @media (max-width: 575.98px) {
+        margin-left: 12px;
+      }
     }
 
     width: 36px;
