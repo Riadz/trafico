@@ -1,7 +1,11 @@
 .footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 52px 0;
+  @media (max-width: 575.98px) {
+    padding: 25px 0;
+  }
 
   &-copyright {
     color: $c-3;
