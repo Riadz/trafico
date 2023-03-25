@@ -1,6 +1,6 @@
 # trafico
 
-This is the implementation of a design by [Aryo Pamungkas](https://dribbble.com/shots/9453856-FIGMA-FREEBIES-Traffico-Landing-page)
+This is the implementation of a design by [Aryo Pamungkas](https://themeui.net/traffico-free-landing-page/)
 
 I made this design into a fully responsive website using bootstrap and sass
 
@@ -16,4 +16,4 @@ You can check the [live demo here](https://riadz.github.io/trafico/)
 
 ## Preview
 
-![Trafalgar](https://cdn.dribbble.com/users/3020341/screenshots/9453856/media/3aaf8905957c5818d6af19998e294525.jpg)
+![Trafalgar](https://i0.wp.com/themeui.net/wp-content/uploads/2020/03/trafico_landing_page.jpg?resize=768%2C2929&ssl=1)
